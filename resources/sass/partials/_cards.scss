@@ -1,39 +1,74 @@
 .main {
-    width: 100%;
-    background-color: black;
-    padding: 2em 0;
-    .cards-main {
-        width: 85%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        .card {
-            width: calc((100% / 6) - 1em);
-            margin-bottom: 1em;
-            img {
-                width: 200px;
-                height: 200px;
+    .main-central {
+        width: 100%;
+        background-color: black;
+        padding: 2em 0;
+        .cards-main {
+            width: 85%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .card {
+                width: calc((100% / 6) - 1em);
+                margin-bottom: 1em;
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+                p {
+                    padding-top: 0.7em;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        text-transform: uppercase;
+                    }
+                }
             }
-            p {
-                color: white;
-                text-transform: uppercase;
-                padding-top: 0.7em;
-            }
+        }
+
+        .load {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1em 0;
+        }
+        .load-more {
+            color: white;
+            padding: 0.4em 2em;
+            font-weight: bold;
+            color: white;
+            background-color: #0282f9;
         }
     }
 
-    .load {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1em 0;
-    }
-    .load-more {
-        color: white;
-        padding: 0.4em 2em;
-        font-weight: bold;
-        color: white;
+    .menu {
         background-color: #0282f9;
+        padding: 0.5em 0;
+        ul {
+            display: flex;
+            justify-content: center;
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 0.5em;
+                .png {
+                    width: 80px;
+                }
+                #png {
+                    width: 60px;
+                }
+                a {
+                    text-decoration: none;
+                    color: white;
+                    padding-left: 0.5em;
+                }
+                #svg {
+                    width: 80px;
+                    height: 95px;
+                }
+            }
+        }
     }
 }

@@ -73,13 +73,13 @@
   color: white;
 }
 
-.main {
+.main .main-central {
   width: 100%;
   background-color: black;
   padding: 2em 0;
 }
 
-.main .cards-main {
+.main .main-central .cards-main {
   width: 85%;
   margin: 0 auto;
   display: flex;
@@ -87,35 +87,75 @@
   justify-content: space-around;
 }
 
-.main .cards-main .card {
+.main .main-central .cards-main .card {
   width: calc(16.6666666667% - 1em);
   margin-bottom: 1em;
 }
 
-.main .cards-main .card img {
+.main .main-central .cards-main .card img {
   width: 200px;
   height: 200px;
 }
 
-.main .cards-main .card p {
-  color: white;
-  text-transform: uppercase;
+.main .main-central .cards-main .card p {
   padding-top: 0.7em;
 }
 
-.main .load {
+.main .main-central .cards-main .card p a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.main .main-central .load {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1em 0;
 }
 
-.main .load-more {
+.main .main-central .load-more {
   color: white;
   padding: 0.4em 2em;
   font-weight: bold;
   color: white;
   background-color: #0282f9;
+}
+
+.main .menu {
+  background-color: #0282f9;
+  padding: 0.5em 0;
+}
+
+.main .menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+.main .menu ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5em;
+}
+
+.main .menu ul li .png {
+  width: 80px;
+}
+
+.main .menu ul li #png {
+  width: 60px;
+}
+
+.main .menu ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 0.5em;
+}
+
+.main .menu ul li #svg {
+  width: 80px;
+  height: 95px;
 }
 
 .footer {
