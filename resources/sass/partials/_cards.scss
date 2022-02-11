@@ -22,4 +22,18 @@
             }
         }
     }
+
+    .load {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 0;
+    }
+    .load-more {
+        color: white;
+        padding: 0.4em 2em;
+        font-weight: bold;
+        color: white;
+        background-color: #0282f9;
+    }
 }

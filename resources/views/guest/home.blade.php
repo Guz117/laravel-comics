@@ -14,5 +14,8 @@
             </div>
         @endforeach
     </div>
-  </div>
+    <div class="load">
+        <p class="load-more">LOAD MORE</p>
+    </div>
+</div>
 @endsection
