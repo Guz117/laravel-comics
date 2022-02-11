@@ -12,15 +12,15 @@
     margin: 0 auto;
 }
 
-img {
+.img-header {
     width: 7%;
 }
 
-ul {
+.ul-header {
     display: flex;
     list-style: none;
 
-    li {
+    .li-header {
         text-decoration: none;
         padding-left: 1em;
         font-size: 0.7em;
