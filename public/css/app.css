@@ -1,7 +1,28 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+.power {
+  width: 100%;
+  background-color: #0282f9;
+}
+.power .power-dc {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.power .power-dc p {
+  color: white;
+}
+.power .power-dc #additional {
+  padding-left: 2em;
 }
 
 .header {
@@ -10,7 +31,7 @@
 }
 
 .contain {
-  height: 100px;
+  height: 97px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,13 +47,14 @@
   display: flex;
   list-style: none;
 }
-
 .ul-header .li-header {
   text-decoration: none;
   padding-left: 1em;
   font-size: 0.7em;
 }
-
+.ul-header .li-header .fa-solid {
+  color: #0282f9;
+}
 .ul-header .li-header a {
   text-decoration: none;
 }
@@ -47,11 +69,10 @@
 .img-jumbotron {
   width: 100%;
   height: 400px;
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-image: url("../../images/jumbotron.jpg");
   background-size: cover;
   position: relative;
 }
-
 .img-jumbotron img {
   width: 100%;
   height: 100%;
@@ -67,10 +88,31 @@
   bottom: -10px;
   left: 182px;
 }
-
 .series a {
   text-decoration: none;
   color: white;
+}
+
+.search {
+  position: relative;
+}
+.search input {
+  border: 0;
+  outline: none;
+}
+.search button {
+  border: 0;
+  background-color: white;
+}
+.search .fa-search::after {
+  background-color: #0282f9;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .main .main-central {
@@ -78,7 +120,6 @@
   background-color: black;
   padding: 2em 0;
 }
-
 .main .main-central .cards-main {
   width: 85%;
   margin: 0 auto;
@@ -86,34 +127,28 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 .main .main-central .cards-main .card {
   width: calc(16.6666666667% - 1em);
   margin-bottom: 1em;
 }
-
 .main .main-central .cards-main .card img {
   width: 200px;
   height: 200px;
 }
-
 .main .main-central .cards-main .card p {
   padding-top: 0.7em;
 }
-
 .main .main-central .cards-main .card p a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
 }
-
 .main .main-central .load {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1em 0;
 }
-
 .main .main-central .load-more {
   color: white;
   padding: 0.4em 2em;
@@ -121,38 +156,31 @@
   color: white;
   background-color: #0282f9;
 }
-
 .main .menu {
   background-color: #0282f9;
   padding: 0.5em 0;
 }
-
 .main .menu ul {
   display: flex;
   justify-content: center;
 }
-
 .main .menu ul li {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 0.5em;
 }
-
 .main .menu ul li .png {
   width: 80px;
 }
-
 .main .menu ul li #png {
   width: 60px;
 }
-
 .main .menu ul li a {
   text-decoration: none;
   color: white;
   padding-left: 0.5em;
 }
-
 .main .menu ul li #svg {
   width: 80px;
   height: 95px;
@@ -167,7 +195,7 @@
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  background: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background: url("../../images/footer-bg.jpg");
 }
 
 .info {
@@ -211,7 +239,7 @@
 .logo-info {
   width: 60%;
   height: 380px;
-  background: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background: url("../../images/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -248,7 +276,6 @@
   border: 2px solid #0282f9;
   padding: 0.7em;
 }
-
 .sign-up a {
   text-decoration: none;
   color: white;
@@ -262,8 +289,6 @@
 .list-social {
   padding-left: 1em;
 }
-
 .list-social img {
   width: 40px;
 }
-

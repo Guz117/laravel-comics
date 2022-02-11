@@ -1,10 +1,27 @@
+.power {
+    width: 100%;
+    background-color: #0282f9;
+    .power-dc {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        p {
+            color: white;
+        }
+        #additional {
+            padding-left: 2em;
+        }
+    }
+}
+
 .header {
     width: 100%;
     height: 100%;
 }
 
 .contain {
-    height: 100px;
+    height: 97px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,6 +41,9 @@
         text-decoration: none;
         padding-left: 1em;
         font-size: 0.7em;
+        .fa-solid {
+            color: #0282f9;
+        }
         & a {
             text-decoration: none;
         }
@@ -61,5 +81,27 @@
     & a {
         text-decoration: none;
         color: white;
+    }
+}
+
+.search {
+    position: relative;
+    input {
+        border: 0;
+        outline: none;
+    }
+    button {
+        border: 0;
+        background-color: white;
+    }
+    .fa-search::after {
+        background-color: #0282f9;
+        content: "";
+        display: block;
+        height: 2px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
     }
 }
