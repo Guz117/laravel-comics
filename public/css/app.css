@@ -73,6 +73,36 @@
   color: white;
 }
 
+.main {
+  width: 100%;
+  background-color: black;
+  padding: 2em 0;
+}
+
+.main .cards-main {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.main .cards-main .card {
+  width: calc(16.6666666667% - 1em);
+  margin-bottom: 1em;
+}
+
+.main .cards-main .card img {
+  width: 200px;
+  height: 200px;
+}
+
+.main .cards-main .card p {
+  color: white;
+  text-transform: uppercase;
+  padding-top: 0.7em;
+}
+
 .footer {
   width: 100%;
   height: 400px;
