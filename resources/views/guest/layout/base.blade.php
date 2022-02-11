@@ -12,7 +12,7 @@
     <div class="container">
         @include('guest.partials.header')
 
-        
+        @yield('content_main')
 
         @include('guest.partials.footer')
     </div>
