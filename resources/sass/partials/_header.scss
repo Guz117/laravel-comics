@@ -30,7 +30,7 @@
 }
 
 .img-header {
-    width: 7%;
+    width: 50px;
 }
 
 .ul-header {
@@ -50,8 +50,9 @@
     }
 }
 
-.active:hover,
-.active:active {
+.hover:hover,
+.hover:active,
+.active {
     color: #0282f9;
     padding-bottom: 39px;
     border-bottom: 4px solid #0282f9;

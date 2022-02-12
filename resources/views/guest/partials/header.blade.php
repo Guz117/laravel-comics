@@ -8,18 +8,18 @@
             </div>
         </div>
         <div class="contain">
-            <img class="img-header" src="{{ asset('images/dc-logo.png') }}" alt="">
+            <a href="{{route('home')}}"><img class="img-header" src="{{ asset('images/dc-logo.png') }}" alt=""></a>
             <ul class="ul-header">
-                <li class="li-header"><a class="active" href="">CHARACTERS</a></li>
-                <li class="li-header"><a class="active" href="">COMICS</a></li>
-                <li class="li-header"><a class="active" href="">MOVIES</a></li>
-                <li class="li-header"><a class="active" href="">TV</a></li>
-                <li class="li-header"><a class="active" href="">GAMES</a></li>
-                <li class="li-header"><a class="active" href="">COLLECTIBLES</a></li>
-                <li class="li-header"><a class="active" href="">VIDEOS</a></li>
-                <li class="li-header"><a class="active" href="">FANS</a></li>
-                <li class="li-header"><a class="active" href="">NEWS</a></li>
-                <li class="li-header"><a class="active" href="">SHOP</a><i class="fa-solid fa-caret-down"></i></li>
+                <li class="li-header"><a class="hover" href="">CHARACTERS</a></li>
+                <li class="li-header"><a class="{{ 'action_comics' === Route::currentRouteName() ? 'active' : '' }} hover" href="{{route('action_comics')}}">COMICS</a></li>
+                <li class="li-header"><a class="hover" href="">MOVIES</a></li>
+                <li class="li-header"><a class="hover" href="">TV</a></li>
+                <li class="li-header"><a class="hover" href="">GAMES</a></li>
+                <li class="li-header"><a class="hover" href="">COLLECTIBLES</a></li>
+                <li class="li-header"><a class="hover" href="">VIDEOS</a></li>
+                <li class="li-header"><a class="hover" href="">FANS</a></li>
+                <li class="li-header"><a class="hover" href="">NEWS</a></li>
+                <li class="li-header"><a class="hover" href="">SHOP</a><i class="fa-solid fa-caret-down"></i></li>
             </ul>
             <div class="search">
                 <input type="text" placeholder="Search.." name="search">
