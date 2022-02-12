@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="img-jumbotron">
-            <div class="series"><a href="">CURRENT SERIES</a></div>
+            
         </div>
     </div>
 </div>

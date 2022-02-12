@@ -79,21 +79,6 @@ html {
   height: 100%;
 }
 
-.series {
-  display: inline-block;
-  padding: 0.5em 1em;
-  font-weight: bold;
-  color: white;
-  background-color: #0282f9;
-  position: absolute;
-  bottom: -10px;
-  left: 182px;
-}
-.series a {
-  text-decoration: none;
-  color: white;
-}
-
 .search {
   position: relative;
 }
@@ -116,10 +101,27 @@ html {
   width: 100%;
 }
 
+.main {
+  position: relative;
+}
+.main .series {
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  color: white;
+  background-color: #0282f9;
+  position: absolute;
+  top: -10px;
+  left: 182px;
+}
+.main .series a {
+  text-decoration: none;
+  color: white;
+}
 .main .main-central {
   width: 100%;
   background-color: black;
-  padding: 2em 0;
+  padding: 3em 0;
 }
 .main .main-central .cards-main {
   width: 85%;

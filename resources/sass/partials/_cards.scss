@@ -1,8 +1,23 @@
 .main {
+    position: relative;
+    .series {
+        display: inline-block;
+        padding: 0.5em 1em;
+        font-weight: bold;
+        color: white;
+        background-color: #0282f9;
+        position: absolute;
+        top: -10px;
+        left: 182px;
+        & a {
+            text-decoration: none;
+            color: white;
+        }
+    }
     .main-central {
         width: 100%;
         background-color: black;
-        padding: 2em 0;
+        padding: 3em 0;
         .cards-main {
             width: 85%;
             margin: 0 auto;

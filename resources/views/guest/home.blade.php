@@ -6,6 +6,7 @@
 
 @section('content_main')
 <div class="main">
+    <div class="series"><a href="">CURRENT SERIES</a></div>
     <div class="main-central">
         <div class="cards-main">
             @foreach ($comics as $comic)
