@@ -15,16 +15,16 @@
             top: 0;
             color: white;
             font-size: 0.9em;
-            background-color: #0282f9;
+            background-color: #00a9d9;
         }
         #view-gallery-img {
             position: absolute;
-            bottom: 0;
+            bottom: 5px;
             left: 50%;
             transform: translateX(-50%);
             font-size: 0.9em;
             color: white;
-            background-color: #0282f9;
+            background-color: #00a9d9;
         }
     }
 }
@@ -225,9 +225,27 @@
         .subscription {
             border-right: 1px solid #e3e3e3;
         }
+    }
 
-        .digital-comics {
-            background-image: url("../../images/cta-icons.png");
-        }
+    .digital-center {
+        position: relative;
+    }
+
+    .digital-center .digital-comics {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        top: 0;
+    }
+
+    .digital-center .digital-comics,
+    .digital-center a {
+        height: 44px;
+        display: block;
+    }
+
+    #img-digital-comics {
+        background-image: url("../../images/cta-icons.png") 0 0;
     }
 }

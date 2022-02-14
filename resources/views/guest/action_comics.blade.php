@@ -85,17 +85,17 @@
     
         <div class="digitals">
             <div class="digitals-center">
-                <div class="digital-comics">
+                <div id="img-digital-comics" class="digital-comics">
                     <a href="">DIGITAL COMICS</a href="">
                 </div>
-                <div class="shop-dc">
-                    <a href="">SHOP DC</a href="">
+                <div id="img-shop-dc" class="shop-dc">
+                    <a href="">SHOP DC</a href="">    
                 </div>
-                <div class="coics-shop-locator">
-                    <a href="">COMICS SHOP LOCATOR</a href="">
+                <div id="img-comics-shop-locator" class="coics-shop-locator">
+                    <a href="">COMICS SHOP LOCATOR</a href=""> 
                 </div>
-                <div class="subscription">
-                    <a href="">SUBSCRIPTION</a href="">
+                <div id="img-subscription" class="subscription">
+                    <a href="">SUBSCRIPTION</a href="">    
                 </div>
             </div>
         </div>

@@ -207,16 +207,16 @@ html {
   top: 0;
   color: white;
   font-size: 0.9em;
-  background-color: #0282f9;
+  background-color: #00a9d9;
 }
 .action-comics-img .comic-book #view-gallery-img {
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 0.9em;
   color: white;
-  background-color: #0282f9;
+  background-color: #00a9d9;
 }
 
 .action-contain {
@@ -424,8 +424,23 @@ html {
 .digitals .digitals-center .subscription {
   border-right: 1px solid #e3e3e3;
 }
-.digitals .digitals-center .digital-comics {
-  background-image: url("../../images/cta-icons.png");
+.digitals .digital-center {
+  position: relative;
+}
+.digitals .digital-center .digital-comics {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+.digitals .digital-center .digital-comics,
+.digitals .digital-center a {
+  height: 44px;
+  display: block;
+}
+.digitals #img-digital-comics {
+  background-image: url("../../images/cta-icons.png") 0 0;
 }
 
 .footer {
