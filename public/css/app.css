@@ -412,7 +412,7 @@ html {
 .digitals .digitals-center .subscription {
   border-left: 1px solid #e3e3e3;
   width: 25%;
-  padding: 1em 0;
+  padding: 1em 0.8em;
   display: flex;
   justify-content: space-between;
 }
