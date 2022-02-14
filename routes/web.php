@@ -18,7 +18,20 @@ Route::get('/', function () {
     return view('guest.home', $data);
 })->name('home');
 
-Route::get('/action_comics', function () {
-    $data = ['comics' => config('comics')];
-    return view('guest.action_comics', $data);
+Route::get('/action_comics/{id}', function ($id) {
+    $collection = collect(config('comics'));
+    $comic = $collection->where('id', $id);
+
+    if ($comic->count() === 0) {
+        abort(404);
+    }
+
+    $singleComic = '';
+    foreach ($comic as $value) {
+        $singleComic = $value;
+    }
+
+    return view('guest.action_comics', [
+        'comic' => $singleComic,
+    ]);
 })->name('action_comics');

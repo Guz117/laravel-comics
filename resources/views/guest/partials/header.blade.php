@@ -11,7 +11,7 @@
             <a href="{{route('home')}}"><img class="img-header" src="{{ asset('images/dc-logo.png') }}" alt=""></a>
             <ul class="ul-header">
                 <li class="li-header"><a class="hover" href="">CHARACTERS</a></li>
-                <li class="li-header"><a class="{{ 'action_comics' === Route::currentRouteName() ? 'active' : '' }} hover" href="{{route('action_comics')}}">COMICS</a></li>
+                <li class="li-header"><a class="{{ 'action_comics' === Route::currentRouteName() ? 'active' : '' }} hover" href="">COMICS</a></li>
                 <li class="li-header"><a class="hover" href="">MOVIES</a></li>
                 <li class="li-header"><a class="hover" href="">TV</a></li>
                 <li class="li-header"><a class="hover" href="">GAMES</a></li>

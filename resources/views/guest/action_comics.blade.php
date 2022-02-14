@@ -8,15 +8,15 @@
 <div class="action-comics">
     <div class="action-comics-img">
         <div class="comic-book">
-            <img src="{{ $comics[0]['thumb'] }}" alt="">
+            <img src="{{ $comic['thumb'] }}" alt="">
         </div>
     </div>
         <div class="action-contain">
             <div class="delux-info">
-                <h1>{{ $comics[0]['title'] }}</h1>
+                <h1>{{ $comic['title'] }}</h1>
                 <div class="avaiable">
                     <div class="price">
-                        <p>U.S. Price:  <span>{{ $comics[0]['price']}}</span> </p>
+                        <p>U.S. Price:  <span>{{ $comic['price'] }}</span> </p>
                         <p>AVAIABLE</p>
                     </div>
                     <div class="check">
@@ -24,7 +24,7 @@
                         <i class="fa-solid fa-caret-down"></i>
                     </div>
                 </div>
-                <p class="description">{{ $comics[0]['description'] }}</p>
+                <p class="description">{{ $comic['description'] }}</p>
             </div>
             <div class="deluxe-img">
                 <h4>ADVERTISEMENT</h4>
@@ -40,7 +40,7 @@
                             <p>Art by:</p>
                         </div>
                         <div class="artist-list">
-                            @foreach ($comics[0]['artists'] as $artist)
+                            @foreach ($comic['artists'] as $artist)
                                 <a href="">{{ $artist }},</a>
                             @endforeach
                         </div>
@@ -50,7 +50,7 @@
                             <p>Written by:</p>
                         </div>
                         <div class="writers-list">
-                            @foreach ($comics[0]['writers'] as $writer)
+                            @foreach ($comic['writers'] as $writer)
                                 <a href="">{{ $writer }},</a>
                             @endforeach
                         </div>
@@ -62,19 +62,19 @@
                     <div class="series-tot">
                         <div class="series-specs">
                             <p class="specs-title">Series:</p>
-                            <a href="">{{ $comics[0]['series'] }}</a>
+                            <a href="">{{ $comic['series'] }}</a>
                         </div>
                     </div>
                     <div class="price-tot">
                         <div class="price">
                             <p class="specs-title">U.S. Price:</p>
-                            <p>{{ $comics[0]['price'] }}</p>
+                            <p>{{ $comic['price'] }}</p>
                         </div>
                     </div>
                     <div class="sale-tot">
                         <div class="sale">
                             <p class="specs-title">On Sale Date:</p>
-                            <p>{{ $comics[0]['sale_date'] }}</p>
+                            <p>{{ $comic['sale_date'] }}</p>
                         </div>
                     </div>
                 </div>
