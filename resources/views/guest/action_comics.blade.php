@@ -8,7 +8,9 @@
 <div class="action-comics">
     <div class="action-comics-img">
         <div class="comic-book">
+            <p id="comic-book-img">COMIC BOOK</p>
             <img src="{{ $comic['thumb'] }}" alt="">
+            <p id="view-gallery-img">VIEW GALLERY</p>
         </div>
     </div>
         <div class="action-contain">

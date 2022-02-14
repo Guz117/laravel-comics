@@ -196,9 +196,27 @@ html {
   position: relative;
 }
 .action-comics-img .comic-book {
+  width: 200px;
   position: absolute;
   top: -16em;
   left: 220px;
+  position: relative;
+}
+.action-comics-img .comic-book #comic-book-img {
+  position: absolute;
+  top: 0;
+  color: white;
+  font-size: 0.9em;
+  background-color: #0282f9;
+}
+.action-comics-img .comic-book #view-gallery-img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9em;
+  color: white;
+  background-color: #0282f9;
 }
 
 .action-contain {
@@ -298,6 +316,7 @@ html {
 }
 .talent-specs-tot .talent-specs .talent .art .art-by p {
   font-size: 0.8em;
+  font-weight: bold;
   color: #003f5e;
 }
 .talent-specs-tot .talent-specs .talent .art .artist-list {
@@ -318,6 +337,7 @@ html {
   width: 15%;
 }
 .talent-specs-tot .talent-specs .talent .written .written-by p {
+  font-weight: bold;
   font-size: 0.8em;
   color: #003f5e;
 }
@@ -358,6 +378,7 @@ html {
 .talent-specs-tot .specs .sale a {
   text-decoration: none;
   color: #00a9d9;
+  text-transform: uppercase;
 }
 .talent-specs-tot .specs .series-specs p,
 .talent-specs-tot .specs .series-specs a,
@@ -371,6 +392,7 @@ html {
 .talent-specs-tot .specs .price .specs-title,
 .talent-specs-tot .specs .sale .specs-title {
   color: #003f5e;
+  font-weight: bold;
 }
 
 .digitals {
@@ -389,6 +411,21 @@ html {
 .digitals .digitals-center .coics-shop-locator,
 .digitals .digitals-center .subscription {
   border-left: 1px solid #e3e3e3;
+  width: 25%;
+  padding: 1em 0;
+}
+.digitals .digitals-center .digital-comics a,
+.digitals .digitals-center .shop-dc a,
+.digitals .digitals-center .coics-shop-locator a,
+.digitals .digitals-center .subscription a {
+  text-decoration: none;
+  color: #727272;
+}
+.digitals .digitals-center .subscription {
+  border-right: 1px solid #e3e3e3;
+}
+.digitals .digitals-center .digital-comics {
+  background-image: url("../../images/cta-icons.png");
 }
 
 .footer {
