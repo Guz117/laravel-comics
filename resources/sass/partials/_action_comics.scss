@@ -216,6 +216,8 @@
             border-left: 1px solid #e3e3e3;
             width: 25%;
             padding: 1em 0;
+            display: flex;
+            justify-content: space-between;
             a {
                 text-decoration: none;
                 color: #727272;
@@ -246,6 +248,26 @@
     }
 
     #img-digital-comics {
-        background-image: url("../../images/cta-icons.png") 0 0;
+        width: 37px;
+        height: 37px;
+        background: url("../../images/cta-icons.png") 0 0;
+    }
+
+    #img-shop-dc {
+        width: 37px;
+        height: 37px;
+        background: url("../../images/cta-icons.png") -112px 0;
+    }
+
+    #img-comics-shop-locator {
+        width: 37px;
+        height: 37px;
+        background: url("../../images/cta-icons.png") -75px 0;
+    }
+
+    #img-subscription {
+        width: 37px;
+        height: 37px;
+        background: url("../../images/cta-icons.png") -38px 0;
     }
 }

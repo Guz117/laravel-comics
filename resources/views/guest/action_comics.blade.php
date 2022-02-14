@@ -43,7 +43,11 @@
                         </div>
                         <div class="artist-list">
                             @foreach ($comic['artists'] as $artist)
-                                <a href="">{{ $artist }},</a>
+                                 @if ($loop->last)
+                                    <a href="">{{ $artist }}</a>
+                                @else
+                                    <a href="">{{ $artist }},</a>
+                                @endif
                             @endforeach
                         </div>
                     </div>
@@ -53,7 +57,11 @@
                         </div>
                         <div class="writers-list">
                             @foreach ($comic['writers'] as $writer)
-                                <a href="">{{ $writer }},</a>
+                                @if ($loop->last)
+                                    <a href="">{{ $writer }}</a>
+                                @else
+                                    <a href="">{{ $writer }},</a>
+                                @endif
                             @endforeach
                         </div>
                     </div>
@@ -85,17 +93,21 @@
     
         <div class="digitals">
             <div class="digitals-center">
-                <div id="img-digital-comics" class="digital-comics">
+                <div class="digital-comics">
                     <a href="">DIGITAL COMICS</a href="">
+                    <div id="img-digital-comics"></div>    
                 </div>
-                <div id="img-shop-dc" class="shop-dc">
+                <div class="shop-dc">
                     <a href="">SHOP DC</a href="">    
+                    <div id="img-shop-dc"></div> 
                 </div>
-                <div id="img-comics-shop-locator" class="coics-shop-locator">
+                <div class="coics-shop-locator">
                     <a href="">COMICS SHOP LOCATOR</a href=""> 
+                    <div id="img-comics-shop-locator"></div>    
                 </div>
-                <div id="img-subscription" class="subscription">
+                <div class="subscription">
                     <a href="">SUBSCRIPTION</a href="">    
+                    <div id="img-subscription"></div>    
                 </div>
             </div>
         </div>
