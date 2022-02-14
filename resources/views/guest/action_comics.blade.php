@@ -83,8 +83,17 @@
     
         <div class="digitals">
             <div class="digitals-center">
-                <div class="digital">
-                    
+                <div class="digital-comics">
+                    <a href="">DIGITAL COMICS</a href="">
+                </div>
+                <div class="shop-dc">
+                    <a href="">SHOP DC</a href="">
+                </div>
+                <div class="coics-shop-locator">
+                    <a href="">COMICS SHOP LOCATOR</a href="">
+                </div>
+                <div class="subscription">
+                    <a href="">SUBSCRIPTION</a href="">
                 </div>
             </div>
         </div>

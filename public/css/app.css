@@ -376,10 +376,19 @@ html {
 .digitals {
   width: 100%;
   background-color: #f6f6f6;
+  border-top: 1px solid #e3e3e3;
 }
 .digitals .digitals-center {
   width: 70%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.digitals .digitals-center .digital-comics,
+.digitals .digitals-center .shop-dc,
+.digitals .digitals-center .coics-shop-locator,
+.digitals .digitals-center .subscription {
+  border-left: 1px solid #e3e3e3;
 }
 
 .footer {
