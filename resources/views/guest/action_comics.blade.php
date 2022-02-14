@@ -46,7 +46,7 @@
                                  @if ($loop->last)
                                     <a href="">{{ $artist }}</a>
                                 @else
-                                    <a href="">{{ $artist }},</a>
+                                    <a href="">{{ $artist }}</a><span>,</span>
                                 @endif
                             @endforeach
                         </div>
@@ -60,7 +60,7 @@
                                 @if ($loop->last)
                                     <a href="">{{ $writer }}</a>
                                 @else
-                                    <a href="">{{ $writer }},</a>
+                                    <a href="">{{ $writer }}</a><span>,</span> 
                                 @endif
                             @endforeach
                         </div>
